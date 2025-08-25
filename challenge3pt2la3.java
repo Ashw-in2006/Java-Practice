@@ -13,19 +13,20 @@ class challenge3pt2la3 {
     }
 } 
 
-/*import java.util.Scanner;
-class q4{
-    public static void main(String arg [])
-    {
-Scanner scan = new Scanner(System.in);
-int size = scan.nextInt();
-int[] marks = new int[size];
+class MiddleElement{
+    public static void main(String args[]){
+        Scanner kuthi = new Scanner(System.in);
+        System.out.println("How much element");
+        int n = kuthi.nextInt();
+        
+        int[]element = new int[n];
+        for(int i=0; i<=n-1; i=i+1){
+            element[i] = kuthi.nextInt();
+        }
+        System.out.println("Fucking elements is");
+        System.out.println(element[n/2]);
 
-for(int i=0;i<=size-1;i=i+1)
-{
-    marks[i] = scan.nextInt();
+
+        
+    }
 }
-    System.out.print("The Middle element in the array is:");
-    System.out.print(marks[size/2]);
-}
-}*/
